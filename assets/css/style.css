@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body {
   /* more on this crazy alphanumerical value in a minute! */
@@ -12,12 +13,13 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  
 }
 header h1 {
   font-weight: bold;
   font-size: 36px;
   color: #fce138;
-  margin: 0;
+  margin:0px;
   display: inline;
 }
 header a {
@@ -38,9 +40,10 @@ header nav ul li {
   color: #024e76;
 }
 header nav ul li a {
-  margin: 0 30px;
+  margin: 30px;
   font-weight: lighter;
   font-size: 22px;
+
 }
 footer {
   background: #fce138;
@@ -110,3 +113,13 @@ section {
   font-size: 16px;
 }
 /* HERO STYLES END */
+.intro {
+  text-align: center;
+}
+.intro h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid #fce138;
+}

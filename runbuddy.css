@@ -24,11 +24,9 @@ h2{
     border-bottom: 3px solid
   #39a6b2;
 }
-header a {
+header nav {
     text-decoration: none;
   color: #fce138;
-}
-header nav {
   float: right;
   margin: 7px 0;
 }
@@ -96,6 +94,27 @@ header nav ul li a {
 
 .steps span {
   font-size: 38px;
+}
+
+.trainers {
+  text-align: center;
+}
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+}
+.trainer img {
+  width: 35%;
+  float: left;
+}
+
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+  overflow: auto;
 }
 
 
